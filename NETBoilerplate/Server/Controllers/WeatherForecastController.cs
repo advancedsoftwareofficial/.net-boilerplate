@@ -9,7 +9,8 @@ using System.Threading.Tasks;
 namespace NETBoilerplate.Server.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [ApiExplorerSettings(IgnoreApi = false)]
+    [Route("api/[controller]")]
     public class WeatherForecastController : ControllerBase
     {
         private static readonly string[] Summaries = new[]

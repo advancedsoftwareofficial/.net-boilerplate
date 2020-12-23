@@ -6,6 +6,11 @@
 
   <ItemGroup>
     <PackageReference Include="AdvancedSoftware.DataAccess" Version="1.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NETBoilerplate\Shared\NETBoilerplate.Shared.csproj" />
   </ItemGroup>
 
 </Project>
